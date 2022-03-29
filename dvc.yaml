@@ -1,0 +1,8 @@
+stages:
+  create_metrics:
+    cmd: python3 metric_creator.py
+    deps:
+    - metric_creator.py
+    metrics:
+    - metrics.json:
+        cache: false

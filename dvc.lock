@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  create_metrics:
+    cmd: python3 metric_creator.py
+    deps:
+    - path: metric_creator.py
+      md5: ac44eaa72d42f257f67a8d39199ad9fa
+      size: 882
+    outs:
+    - path: metrics.json
+      md5: 3a5c3c99e9696a68510e90f5911fcd0e
+      size: 714
