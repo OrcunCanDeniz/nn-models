@@ -1,0 +1,4 @@
+outs:
+- md5: bad7cfe8b3bbb88b8b28bf72d27faeba
+  size: 62836631
+  path: checkpoint_epoch_30.pth
